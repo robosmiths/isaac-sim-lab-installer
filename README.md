@@ -2,6 +2,16 @@
 
 Automated installation scripts for NVIDIA Isaac Sim and Isaac Lab on Linux. One-command setup for robotics simulation and reinforcement learning.
 
+## ⚠️ Important Notice
+
+**These scripts are provided for quick installation and troubleshooting purposes only.** They are **NOT** the official installation guides and may not be updated with the latest versions of Isaac Sim or Isaac Lab.
+
+**For official installation instructions, please refer to:**
+- **Isaac Sim Official Docs**: https://docs.isaacsim.omniverse.nvidia.com/
+- **Isaac Lab Official Docs**: https://isaac-sim.github.io/IsaacLab/
+
+Use these scripts at your own discretion. Always check the official documentation for the most up-to-date and supported installation methods.
+
 ## 🎯 What This Does
 
 This repository provides automated bash scripts to install:
