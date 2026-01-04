@@ -61,6 +61,27 @@ chmod +x *.sh
 - Installs RL frameworks (RSL-RL recommended)
 - **Time:** ~15-25 minutes
 
+### 4. Optimize System Performance (Optional - Only if you have performance issues)
+
+**⚠️ WARNING:** Review the scripts carefully before running. These configurations modify system-level power management settings and may affect other parts of your system. 
+
+For maximum Isaac Sim performance, configure CPU and GPU power management:
+
+```bash
+# Configure CPU for performance mode (TLP)
+sudo ./configure_cpu_power.sh
+
+# Restore full GPU power limits
+sudo ./configure_gpu_power.sh
+```
+
+**What it does:**
+- **CPU**: Sets performance governor on AC power, enables turbo boost
+- **GPU**: Restores full power limits (e.g., 95W → 175W for RTX 4070)
+- **Impact**: Significantly improves simulation performance
+
+See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for detailed power management issues and solutions.
+
 ## ✅ Testing Your Installation
 
 ### Test Isaac Sim (GUI)
