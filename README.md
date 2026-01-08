@@ -73,7 +73,7 @@ chmod +x *.sh
 
 ### 4. Optimize System Performance (Optional - Only if you have performance issues)
 
-**⚠️ WARNING:** Review the scripts carefully before running. These configurations modify system-level power management settings and may affect other parts of your system. 
+**⚠️ WARNING:** Review the scripts carefully before running. These configurations modify system-level power management settings and may affect other parts of your system.
 
 For maximum Isaac Sim performance, configure CPU and GPU power management:
 
@@ -91,6 +91,8 @@ sudo ./configure_gpu_power.sh
 - **Impact**: Significantly improves simulation performance
 
 See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for detailed power management issues and solutions.
+
+**RTX 5090 Users:** For a comprehensive performance optimization guide specific to RTX 5090 laptop GPUs, see [isaac_sim_rtx5090_max_performance.md](isaac_sim_rtx5090_max_performance.md).
 
 ## ✅ Testing Your Installation
 
@@ -246,6 +248,7 @@ lsb_release -a  # Check your version
 - **Isaac Lab Docs**: https://isaac-sim.github.io/IsaacLab/
 - **Isaac Lab GitHub**: https://github.com/isaac-sim/IsaacLab
 - **Tutorials**: https://isaac-sim.github.io/IsaacLab/main/source/tutorials/
+- **RTX 5090 Performance Guide**: [isaac_sim_rtx5090_max_performance.md](isaac_sim_rtx5090_max_performance.md)
 
 ## 🤝 Contributing
 
